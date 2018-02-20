@@ -1,0 +1,15 @@
+﻿[
+  {"getInTouch": "Get In Touch"},
+  {"region": "Russia, Saint-Petersburg"},
+  {"street": "Nevskii, Building 13/7"},
+  {"phone": "8 (812) 666-66-66"},
+  {"mobilePhone": "+7 (966) 666-66-66"},
+  {"email": "ivanov@mail.ru"},
+  {"secondEmail": "info@gmai.com"},
+  { "findUs": "Find us" },
+  {"firstLine": "Innovation"},
+  {"secondLine": "We help"},
+  {"firstPartLastLine": "©2014 OOO "},
+  {"colorPartLastLine": "Habr"},
+  { "thirdPartLastLine": "blog for developers" }
+]

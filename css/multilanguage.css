@@ -1,0 +1,91 @@
+:root {
+    --light-element-color: #eee;
+    --dark-element-color: #393939;
+}
+.flag {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem
+}
+
+.flag-ru {
+    background-image: url(../flags/russia.svg);
+}
+
+.flag-us {
+    background-image: url(../flags/united-states-of-america.svg);
+}
+
+.flag:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.select-flag {
+    -webkit-filter: brightness(205%);
+    filter: brightness(205%);
+}
+
+.lang-dropdown {
+    margin-right: 2rem
+}
+
+.flag-with-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.lang-menu {
+    z-index: 1;
+    position: absolute;
+    background-color: var(--dark-element-color);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.lang-first-init {
+    display: none !important;
+}
+
+.animation-lang-show {
+    overflow: hidden;
+    animation: 0.8s ease showBlock;
+}
+
+@keyframes showBlock {
+    from {
+        max-height: 0px;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+    }
+
+    to {
+        max-height: 20rem;
+    }
+}
+
+.animation-lang-hide {
+    animation-timing-function: linear;
+    animation-name: hideBlock;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes hideBlock {
+    from {
+        max-height: 20rem;
+    }
+
+    to {
+        display: none;
+        height: 0px;
+        max-height: 0px;
+        padding-bottom: 0em;
+        padding-top: 0rem;
+        margin-top: 0em;
+        padding-left: 0em;
+        margin-bottom: 0em
+    }
+}

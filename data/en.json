@@ -1,0 +1,40 @@
+[
+  { "main": "Hello!" },
+  { "aboutCompany": "About" },
+  { "product": "Product" },
+  { "equipment": "Equipment" },
+  { "whereBuy": "Where Buy" },
+  { "service": "Service" },
+  { "partners": "Partners" },
+  { "contacts": "Contacts" },
+  { "aboutCompanyHeader": "About Company" },
+  {"siteHeader": "Habr"},
+  { "siteSubHeader": "This site is a platform for information exchange between users of the user" },
+  {
+    "aboutCompanyText": [
+      "«Habrahabr» is the largest resource in Europe for IT specialists, published by TM. ",
+      "Since the appearance in 2006,",
+      "Habr",
+      "has been transformed from a small industry site into a global one,",
+      "a professional platform that is visited monthly by more than 8 million unique users.",
+      "Habrahabr",
+      "is equally interesting to programmers and developers, administrators and testers, designers,",
+      "and coder, analysts and copywriters, as well as all those for whom IT is not just two letters of the alphabet.",
+      "Expansion of the",
+      "Habra",
+      "theme gave rise to the satellite site - Geektimes, to which non-core hubs moved,",
+      "and much of the content that does not directly relate to development and programming."
+    ]
+  },
+  { "ourMissionHeader": "Our mission" },
+  {
+    "ourMissionText": [
+      "This site is a platform for information exchange between users of the user",
+      "The community of users of the site is self-regulating, so to understand all the nuances",
+      "The work of the project from the first time is not all at all. To explain how everything is arranged, we have prepared",
+      "this reference section.On the right is a rubricator of the reference section.For clarification, selec",
+      "the corresponding rubricator and read the proposed information.If you could not find the answer",
+      "for the question of interest, please use the feedback form"
+    ]
+  }
+]
